@@ -2,8 +2,8 @@
 
 This repository is a **single-notebook educational implementation** of autoencoders and variational autoencoders in PyTorch. It walks from a deterministic autoencoder on MNIST through MLP-based and CNN-based VAEs, including experiments on **MNIST**, **Fashion-MNIST**, and **CIFAR-10**.
 
-Original Paper:  `https://arxiv.org/pdf/1312.6114`
-Explnation : `<meduium_link>`
+- Original Paper:  `https://arxiv.org/pdf/1312.6114`
+- Mathematical Explanation : `<meduium_link>`
 
 The primary artifact is [`VAE.ipynb`](./VAE.ipynb).
 
