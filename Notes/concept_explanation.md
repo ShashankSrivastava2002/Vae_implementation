@@ -172,21 +172,3 @@ Details: `vae_implementation_notes.md`, Section 4.
 7. **KL:** analytic for diagonal Gaussian vs \(\mathcal{N}(0,I)\).  
 8. **Optimization:** SGD/Adam on \(\phi\) and \(\theta\) jointly.  
 9. **Use:** sample \(z \sim p(z)\), decode new \(x\); interpolate or vary posterior samples.
-
-*(Duplicate short version: `vae_paper_notes.md`, Section 7.)*
-
----
-
-## Part G — Where to read more in-repo
-
-| Topic | File |
-|--------|------|
-| Paper Q&A, Jensen, ELBO narrative | `vae_paper_notes.md` |
-| Definitions, ELBO + proofs intuition | `vae_mathematics.md` |
-| Shapes, layers, training loop, AE vs VAE table | `vae_implementation_notes.md` |
-| Common questions & pitfalls | `doubts.md` (this folder) |
-| Runnable experiments | `../VAE.ipynb` / `../repo/README.md` if present |
-
----
-
-*This `detail.md` is a synthesis for navigation and exam-style review; the three source notes remain the expanded originals.*
